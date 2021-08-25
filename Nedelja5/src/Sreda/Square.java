@@ -1,22 +1,19 @@
 package Sreda;
 
-public class Square extends Shape {
-    private double a;
-
-    public Square(String name, double a) {
-        super(name);
-        this.a = a;
+public class Square extends Rectangle {
+    public Square(String name, double a, double b) {
+        super(name, a, b);
     }
 
     @Override
     public double circumference() {
-        double O = 4 * a;
+        double O = (2 * getA()) + (2 * getB());
         return O;
     }
 
     @Override
     public double area() {
-        double P = a * a;
+        double P = getA() * getB();
         return P;
     }
 

@@ -9,6 +9,14 @@ public class Rectangle extends  Shape{
         this.b = b;
     }
 
+    public double getA() {
+        return a;
+    }
+
+    public double getB() {
+        return b;
+    }
+
     @Override
     public double circumference() {
         double O = (2 * a) + (2 * b);
