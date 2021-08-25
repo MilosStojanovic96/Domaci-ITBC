@@ -1,3 +1,5 @@
+package Sreda;
+
 import java.util.Scanner;
 
 public class Zadatak3 {
@@ -23,5 +25,4 @@ public class Zadatak3 {
             System.out.println("Congrats you have entered a valid password!");
         }
     }
-
 }

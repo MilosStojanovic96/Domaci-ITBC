@@ -1,3 +1,5 @@
+package Nedelja;
+
 import java.util.ArrayList;
 
 public class Zadatak16DrugiNacin {

@@ -1,3 +1,4 @@
+package Sreda;
 
 public class Karatista {
     private String ime;
@@ -67,7 +68,7 @@ public class Karatista {
     }
 
     public void setKata(String[] kata) {
-     this.kata = kata;
+        this.kata = kata;
     }
 
     public void napadni(int index) {
@@ -86,5 +87,4 @@ public class Karatista {
         }
         System.out.println("Karatista: " + ime + ", " + godine + ", " + rang + " zna naredne kate " + znaKate);
     }
-
 }

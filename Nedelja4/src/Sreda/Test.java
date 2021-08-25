@@ -1,5 +1,6 @@
-public class Test {
+package Sreda;
 
+public class Test {
     public static void main(String[] args) {
         String[] kate1 = new String[]{"Ichi", "Ni", "San", "Shi"};
         String[] kate2 = new String[]{"I", "Fu", "Mi",};

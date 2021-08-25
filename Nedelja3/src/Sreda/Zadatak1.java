@@ -1,3 +1,5 @@
+package Sreda;
+
 public class Zadatak1 {
     //    Biblord na autoputu treba da ispise poruku koja joj je prosledjena dalekovodima.
 //    Kako su dalekovodi stari, cesto u prenosu poruke dodaju karaktere '$', '#' i '@' negde u poruku.

@@ -1,3 +1,5 @@
+package Nedelja;
+
 import java.util.Scanner;
 
 public class Zadatak2 {

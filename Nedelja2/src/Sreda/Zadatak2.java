@@ -1,3 +1,5 @@
+package Sreda;
+
 import java.util.Scanner;
 
 public class Zadatak2 {
@@ -18,4 +20,5 @@ public class Zadatak2 {
         }
 
     }
+
 }

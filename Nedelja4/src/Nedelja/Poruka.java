@@ -1,3 +1,5 @@
+package Nedelja;
+
 public class Poruka {
     private String poruka;
     private String posiljalac;

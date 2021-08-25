@@ -1,4 +1,7 @@
+package Nedelja;
+
 import java.util.ArrayList;
+
 public class Posta {
     private ArrayList<Poruka> poruke;
 
@@ -74,5 +77,4 @@ public class Posta {
         }
         return rez;
     }
-
 }
