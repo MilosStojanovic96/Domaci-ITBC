@@ -3,28 +3,25 @@ package Sreda;
 public class Square extends Rectangle {
     public Square(String name, double a, double b) {
         super(name, a, b);
-
     }
 
     @Override
     public double circumference() {
         if (getA() == getB()) {
-            double O = (2 * getA()) + (2 * getB());
-            return O;
+            return super.circumference();
         } else {
-            System.out.println("Postavljena podrazumevana vrednost obima: 0. (Jer unete vrednosti za stranice kvadrata nisu jednake.) ");
-            return 0;
+            System.out.println("Unete vrednosti za stranice nisu jednake, izracunat je obim pravougaonika. Promenite ime oblika u pravougaonik (Rectangle).");
+            return super.circumference();
         }
     }
 
     @Override
     public double area() {
         if (getA() == getB()) {
-            double P = getA() * getB();
-            return P;
+            return super.area();
         } else {
-            System.out.println("Postavljena podrazumevana vrednost povrsine: 0. (Jer unete vrednosti za stranice kvadrata nisu jednake.) ");
-            return 0;
+            System.out.println("Unete vrednosti za stranice nisu jednake, izracunata je povrsina pravougaonika. Promenite ime oblika u pravougaonik (Rectangle).");
+            return super.area();
         }
     }
 

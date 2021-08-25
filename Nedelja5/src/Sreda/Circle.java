@@ -5,7 +5,13 @@ public class Circle extends Shape {
 
     public Circle(String name, double r) {
         super(name);
-        this.r = r;
+        if (r > 0) {
+            this.r = r;
+        } else {
+            this.r = 10;
+            System.out.println("Postavljena podrazumevana vrednost: 10 (jer ste uneli ne pozitivnu");
+        }
+
     }
 
     @Override

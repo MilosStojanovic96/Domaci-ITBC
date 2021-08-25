@@ -5,9 +5,26 @@ public class Triangle extends Shape {
 
     public Triangle(String name, double a, double b, double c) {
         super(name);
-        this.a = a;
-        this.b = b;
-        this.c = c;
+        if (a > 0) {
+            this.a = a;
+        } else {
+            this.a = 10;
+            System.out.println("Postavljena podrazumevana vrednost: 10 (jer ste uneli ne pozitivnu");
+        }
+
+        if (b > 0) {
+            this.b = b;
+        } else {
+            this.b = 10;
+            System.out.println("Postavljena podrazumevana vrednost: 10 (jer ste uneli ne pozitivnu");
+        }
+
+        if ( c > 0) {
+            this.c = c;
+        } else {
+            this.c = 10;
+            System.out.println("Postavljena podrazumevana vrednost: 10 (jer ste uneli ne pozitivnu");
+        }
     }
 
     @Override
