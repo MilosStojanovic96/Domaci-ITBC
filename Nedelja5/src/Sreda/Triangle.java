@@ -1,6 +1,6 @@
 package Sreda;
 
-public class Triangle extends  Shape{
+public class Triangle extends Shape {
     private double a, b, c;
 
     public Triangle(String name, double a, double b, double c) {
@@ -18,8 +18,8 @@ public class Triangle extends  Shape{
 
     @Override
     public double area() {
-        double s = (a + b + c) /2;
-        double P = Math.sqrt(s *(s - a)* (s - b) * (s - c));
+        double s = (a + b + c) / 2;
+        double P = Math.sqrt(s * (s - a) * (s - b) * (s - c));
         return P;
     }
 

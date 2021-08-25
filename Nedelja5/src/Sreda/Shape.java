@@ -19,7 +19,7 @@ public abstract class Shape {
     public String toString() {
 
         return "Shape: " + name + "\n"
-                + "Circumference: " + circumference() +"\n"
+                + "Circumference: " + circumference() + "\n"
                 + "Area: " + area() + "\n"
                 + "-----------------";
     }

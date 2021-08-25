@@ -1,7 +1,7 @@
 package Sreda;
 
-public class Rectangle extends  Shape{
-    private  double a, b;
+public class Rectangle extends Shape {
+    private double a, b;
 
     public Rectangle(String name, double a, double b) {
         super(name);
