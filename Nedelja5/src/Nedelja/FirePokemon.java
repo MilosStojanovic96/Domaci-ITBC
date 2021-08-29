@@ -3,6 +3,7 @@ package Nedelja;
 public class FirePokemon extends Pokemon {
     public FirePokemon(String name, int health) {
         super(name, health);
+        this.type = "Fire";
     }
 
     @Override

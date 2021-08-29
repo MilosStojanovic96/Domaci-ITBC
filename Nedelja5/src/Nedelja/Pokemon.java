@@ -1,7 +1,8 @@
 package Nedelja;
 
 public abstract class Pokemon implements Attackable {
-    String name, type;
+    String name;
+    String type;
     int health;
 
     public Pokemon(String name, int health) {

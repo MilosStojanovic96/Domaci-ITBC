@@ -1,9 +1,9 @@
 package Nedelja;
 
 public class GrassPokemon extends Pokemon {
-
     public GrassPokemon(String name, int health) {
         super(name, health);
+        this.type = "Grass";
     }
 
     @Override
