@@ -5,12 +5,14 @@ public class Domaci {
 
     // 1. Sve brojeve deljive sa 3 uvecati za 2
     public static List<Integer> divBy3Add2(List<Integer> numbers) {
-        return numbers.stream().map(x -> x % 3 == 0 ? x + 2 : x).collect(Collectors.toList());
+        List<Integer> list = numbers.stream().map(x -> x % 3 == 0 ? x + 2 : x).collect(Collectors.toList());
+        return list;
     }
 
     // 2. Izbaciti sve brojeve koji su deljivi sa 3 prilikom njihovog dupliranja
     public static List<Integer> afterDoubleDeleteDivBy3 (List<Integer> numbers) {
-        return numbers.stream().map(x -> x * 2).filter(x ->x % 3 == 0).collect(Collectors.toList());
+        List<Integer> list = numbers.stream().map(x -> x * 2).filter(x ->x % 3 == 0).collect(Collectors.toList());
+        return list;
     }
 
     // 3. Pomnoziti svaki neparan broj sa 2 i izbaciti duplikate
