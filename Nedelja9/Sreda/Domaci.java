@@ -1,7 +1,4 @@
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.HashSet;
-import java.util.List;
+import java.util.*;
 import java.util.stream.Collectors;
 
 public class Domaci {
@@ -19,7 +16,9 @@ public class Domaci {
     // 3. Pomnoziti svaki neparan broj sa 2 i izbaciti duplikate
     public static List<Integer> multiplyAllOddNumbersBy2DeleteDuplicates(List<Integer> numbers){
         List<Integer> multiplyAllOddNumbersBy2 = numbers.stream().map(x -> x % 2 != 0 ? x*2 : x).collect(Collectors.toList());
-        return new ArrayList<>(new HashSet<>(multiplyAllOddNumbersBy2));
+        HashSet<Integer> set = new HashSet<>(multiplyAllOddNumbersBy2);
+        ArrayList<Integer> list = new ArrayList(set);
+        return list;
     }
 
 
